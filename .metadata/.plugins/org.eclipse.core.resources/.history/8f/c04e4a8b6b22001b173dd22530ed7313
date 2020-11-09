@@ -52,7 +52,6 @@ public class Login extends HttpServlet {
 			list.add(new Student("SV003", "Tien", "Binh Dinh"));
 			list.add(new Student("SV004", "Tien", "Quang Nam"));
 			list.add(new Student("SV005", "Tien", "Hue"));
-			list.add(new Student("SV005", "Tien", "Ha Tinh"));
 			request.setAttribute("list", list);
 //			StudentService studentService = new StudentService();
 //			Student stu = studentService.getStudent(username);
