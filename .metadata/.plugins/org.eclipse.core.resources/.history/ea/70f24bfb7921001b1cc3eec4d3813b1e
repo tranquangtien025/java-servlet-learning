@@ -1,0 +1,15 @@
+package service;
+import java.util.ArrayList;
+
+import entity.Student;
+
+public class StudentService {
+	ArrayList<Student> list = new ArrayList<>();
+	public Student getStudent(String id) {
+		
+		return new Student("SV002", "Tien", "Quang Tri");
+	}
+	list.add(new Student("SV001", "Tien", "Quang Tri"));
+	
+}
+//vao jstl
